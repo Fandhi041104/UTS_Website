@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    font-family: 'poppins',sans-serif;
+}
+.banner {
+    background: url("../gambar/peakpx.jpg") 
+    no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: #FFF;
+}
+h4 {
+    color: #b6c3b3;
+}

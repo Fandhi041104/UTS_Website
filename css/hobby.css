@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+.hobby {
+    min-height: 100vh;
+    width: 100%;
+    padding: 100px;
+    background-color: #ffffff;
+}
+.hobby img {
+    border: 2px solid #03ca4c;
+    box-shadow: 0 0 5px #03ca4c,
+                0 0 25px #03ca4c;
+    height: auto;
+    width: 35%;
+    border-radius: 5em;
+    transition: 0.5s ease ;
+    text-decoration: none;
+}
+.hobby img:hover {
+    background: #03ca4c;
+    color: black;
+    border: 2px solid ;
+    box-shadow: 0 0 5px #03ca4c,
+                0 0 25px #03ca4c;
+    cursor: pointer;
+    transform: scale(1.1);
+    margin-left: 0.5em;
+}
+.main {
+    width: 1200px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h1 {
+    color: black;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+  
+}
+.about-text h5 {
+    color: black;
+    font-size: 20px;
+    text-transform: 25px;
+    margin-bottom: 0.4em;
+    padding-bottom: 10px;
+}
+span {
+    columns: #03ca4c;
+    color: #139643;
+
+}
+.about-text p{
+    color: black;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 15px;
+    margin-bottom: 45px;
+    padding-top: 15px;
+}
+button {
+    background: transparent;
+    color: #03ca4c;
+    font-size: 16px;
+    text-decoration: none;
+    border: 2px solid #000000;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s ease;
+}
+button:hover {
+    background: #03ca4c;
+    color: black;
+    border: 2px solid ;
+    box-shadow: 0 0 5px #03ca4c,
+                0 0 25px #03ca4c;
+    cursor: pointer;
+    transform: scale(1.1);
+    margin-left: 0.5em;
+}

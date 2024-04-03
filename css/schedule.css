@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    font-family: 'poppins', sans-serif;
+}
+.schedule {
+    min-height: 100vh;
+    width: 100%;
+    padding: 78px;
+    background-color: #ffffff;
+    }
+    .collapse {
+        font-family: 'poppins', sans-serif;
+    }
